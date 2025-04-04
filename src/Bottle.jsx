@@ -1,9 +1,6 @@
 import React from "react";
 
-const Bottle = ({bottl,handleAddToCart}) => {
-
-
-
+const Bottle = ({bottl, handleAddToCart}) => {
   return (
     <div className="border-4 gap-5  ">
       <h1 className="font-bold text-xl pl-2">Brand: {bottl.brand}</h1>
@@ -13,7 +10,13 @@ const Bottle = ({bottl,handleAddToCart}) => {
         alt={bottl.brand}
       />
       <div className="text-center">
-      <button onClick={()=> handleAddToCart(bottl)} className="btn btn-primary "> buy now</button>
+        <button
+          onClick={() => handleAddToCart(bottl)}
+          className="btn btn-primary "
+        >
+          {" "}
+          buy now
+        </button>
       </div>
     </div>
   );

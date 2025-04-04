@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Suspense>
+      <Suspense fallback={<h1> loding data........</h1>}>
         <Bottles PromiseBottle={PromiseBottle}> </Bottles>
       </Suspense>
     </>

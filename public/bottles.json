@@ -130,4 +130,31 @@
       "recyclable": true,
       "expirationDate": "2024-01-15"
     }
+    ,
+    {
+      "id": 11,
+      "brand": "Smartwater",
+      "volume": 600,
+      "price": 2.5,
+      "color": "clear",
+      "material": "plastic",
+      "image": "../src/assets/download (2).jpeg",
+      "countryOfOrigin": "USA",
+      "pHLevel": 7.6,
+      "recyclable": true,
+      "expirationDate": "2023-10-05"
+    },
+    {
+      "id": 12,
+      "brand": "Fiji",
+      "volume": 500,
+      "price": 2.8,
+      "color": "clear",
+      "material": "plastic",
+      "image":"../src/assets/download (5).jpeg",
+      "countryOfOrigin": "Fiji",
+      "pHLevel": 7.7,
+      "recyclable": true,
+      "expirationDate": "2023-12-25"
+    }
   ]
